@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   background-color: #AAA;
+   width: 100%;
+   height: 50px;
+}
+.header i{
+    color: #AB7442;
+}
+.left{
+    display: flex;
+    padding-left: 30px;
+    
+}
+.right{
+    display: flex;
+    padding-right: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    position: sticky;
+    margin-top: 5px;
+    top: 0px;
+    border: 3px;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+   
+    
+}
+.woody{
+    font-size: 20px;
+    color: #AB7442;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+} 
+.list li, a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content ul{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    width: 100px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #fff;
+}
+.list ul li:last-child{
+    width: 220px;
+    height: 70px;
+    background-color: #AB7442;
+    text-align: center;
+    line-height: 60px;
+}
+.sectionone img{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.paraqraph{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    color: white;   
+}
+.paraqraph h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-top: 50px;
+    width: 450px;
+    font-size: 40px;
+}
+.paraqraph p {
+    font-size: 26px;
+    margin-top: 20px;
+    color: white;
+}
+.paraqraph h2{
+    color: white;
+    font-size: 25px;
+}
+.paraqraph button{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-color: #AB7442;
+    border: none;
+    color: white;
+}
+.paraqraph button:hover{
+    cursor: pointer;
+    background-color: #9c9999;
+    border: none;
+}
+/* ***** */
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+ 
+}
+.section h1{
+    font-size: 60px;
+    color: whitesmoke;
+}
+.section i{
+    color: #AB7442;  
+}
+.section p{
+    font-size: 20px;
+    color: black;
+}
+
+.van{
+    display: flex;
+    gap: 30px;
+}
+.products{
+    display: flex;
+    gap: 30px;
+    width: 25%;
+}
+.consultation{
+    display: flex;
+    gap: 30px;
+    width: 25%;
+}
+.support{
+    display: flex;
+    gap: 30px;
+    width: 25%;
+}
+/* **** */
+
+.section2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+   
+}
+.wood img{
+    width: 1000px;
+    height: 500px;
+    margin-left: -270px;
+}
+.about{
+    /* margin-right: 350px; */
+    margin-left: 20px;
+}
+.about h1{
+    font-size: 50px;
+    position: relative;
+}
+.about h1::after{
+    content: "";
+    position: absolute;
+    background-color: #AB7442;
+    width: 50px;
+    height: 5px;
+    margin-top: 45px;
+}
+.about h2{
+    font-size: 45px;
+}
+.about i,h2{
+    color: #AB7442;
+}
+
+.about p{
+    width: 300px;
+    
+    margin-top: 30px;
+}
+.happy{
+    display: flex;
+}
+.project-done{
+    display: flex;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+/* ***** */
+.our-service{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 50px;
+}
+.section3{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+.section3 img{
+    width: 400px;
+    height: 250px;
+}
+.section3 h2{
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+}
+.section3 p{
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.section3 i{
+    margin-top: 25px;
+    color: #AB7442;
+}
+.section3 a{
+    color: #AB7442;
+}
+.general-carpentry{
+    border: 3px solid #e8dcdcd1;
+}
+.furniture-manifacturing{
+    border: 3px solid #e8dcdcd1;  
+}
+.furniture-remodeling{
+    border: 3px solid #e8dcdcd1;  
+}
+.wooden-work{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    gap: 25px;
+    text-align: center;
+}
+.wooden-work img{
+    width: 400px;
+    height: 250px;
+}
+.wooden-work h2{
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+}
+.wooden-work p{
+    width: 250px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.wooden-work a{
+    color: #AB7442;
+}
+.wooden-work i{
+    margin-top: 25px;
+    color: #AB7442;
+}
+.wooden-floor{
+    border: 3px solid #e8dcdcd1; 
+}
+.woodenfur-furniture{
+    border: 3px solid #e8dcdcd1;
+}
+.custom-work{
+    border: 3px solid #e8dcdcd1;  
+}
+/*  */
+.chose-us{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-work{
+    text-align: center; 
+}
+.left-work p{
+    width: 450px;
+    margin-top: 20px;
+}
+.left-work i{
+    color: #AB7442;
+}
+.quality-service{
+    display: flex;
+    margin-top: 20px; 
+    gap: 50px;   
+}
+.free-tion{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 20px;
+    gap: 50px;
+}
+.creativ-design-support{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    
+    
+}
+.qual-serv-free-consul{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+/* **** */
+.our-project{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    
+}
+.our-project h1::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-top: 55px;
+}
+.our-project h1::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-top: 55px;
+    margin-left: -40px;
+}
+/* **** */
+/* .section7{
+    width: 100%;
+    height: 50px; */
+
+.section7 ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.section7 a{
+    color: #AB7442;
+}
+/* **** */
+.general-major{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+}
+.general-major img{
+    width: 400px;
+    height: 250px;
+   
+   
+}
+.general-major p{
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+/* **** */
+.free-quote{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    gap: 200px;
+    
+}
+.free-quote h1{
+    font-size: 60px;
+}
+.free-quote h1::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-top: 55px;
+}
+.free-quote p{
+    width: 400px;
+    margin-top: 30px;
+}
+.input1{
+    margin-top: 20px;
+    
+}
+.input2{
+    margin-top: 20px;
+}
+.input3{
+    margin-top: 20px;
+}
+.serq button{
+    margin-top: 20px;
+    width: 405px;
+    height: 60px;
+    background-color: #AB7442;
+    border: navajowhite;
+}
+/* **** */
+.footer1{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.footer i{
+    margin-top: 15px;
+}
+.footer i:hover{
+    cursor: pointer;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+.address{
+    color: white;
+}
+.servis{
+    color: white;
+}
+.links{
+    color: white;
+    margin-top: 27px;
+}
+.letter{
+    color: white;
+    /* margin-top: 10px; */
+}
+.letter p{
+    margin-top: 20px;
+    width: 200px;
+}
+.letter input{
+    width: 250px;
+    height: 50px;
+}
+.letter button{
+    margin-top: 40px;
+    width: 60px;
+    height: 30px;
+    margin-left: -65px;
+    background-color: #AB7442;
+}
+.letter button:hover{
+    background-color: #AAA;
+    cursor: pointer;
+}
+.social i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(164, 157, 157);
+    text-align: center;
+    line-height: 30px;
+}
+.social i:hover{
+    background-color: #847d7d;
+}
+.foot-i{
+    display: flex;
+    top: 0px;
+}
+.foot-by{
+    display: flex;
+}
+
